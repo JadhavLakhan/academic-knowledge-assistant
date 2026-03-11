@@ -1,0 +1,45 @@
+
+------ IMAGE 0 (page27_img1.jpeg) ------
+This chart illustrates the comparative growth trends of four distinct categories over a specified period, with each category represented by a different color. The increasing heights of the bars indicate a consistent upward trajectory in values, highlighting significant differences in performance among the categories. The data suggests varying rates of growth, warranting further analysis to understand the underlying factors influencing these trends.
+
+------ IMAGE 1 (page28_img2.png) ------
+The figure presents a comparative analysis of the GDP deflator (%), represented by the dashed red line, alongside two other economic indicators (depicted by the blue and green lines) over a specified time period. The GDP deflator exhibits a consistent upward trend, indicating a rise in the overall price level of goods and services in the economy, with notable increases at several time points. The other indicators show varying trends, which may reflect different economic dynamics. This visualization underscores the inflationary pressures within the economy as
+
+------ IMAGE 2 (page29_img3.png) ------
+This figure presents a comparative analysis of Real Gross State Domestic Product (GSDP) and Nominal GSDP growth rates from 2004 to 2024. The blue line represents the Real GSDP growth rate, while the red line indicates the Nominal GSDP growth rate. Notably, fluctuations in both growth rates are evident, particularly around the global financial crisis of 2008, with significant recovery observed in subsequent years. The data highlights the differences in trends between real and
+
+------ IMAGE 3 (page30_img4.png) ------
+This figure presents a time series decomposition of the original data series into its constituent components: the overall trend, seasonality, and residuals. The top panel shows the original data over the years 2000 to 2024, indicating a steady upward trend. The middle panel illustrates the smoothed trend component, revealing the underlying progression without seasonal fluctuations. The bottom two panels display the seasonality and residuals, both of which appear minimal, suggesting that seasonal effects are negligible in this dataset, while the
+
+------ IMAGE 4 (page32_img5.png) ------
+The figure displays the Autocorrelation Function (ACF) for a time series analysis, illustrating the correlation of the series with its own lagged values. The primary spike at lag 0 indicates perfect correlation, while subsequent lags exhibit diminishing correlations that approach zero, suggesting a lack of temporal dependence beyond the immediate past. The shaded area represents the confidence intervals, which help assess the statistical significance of the autocorrelation values.
+
+------ IMAGE 5 (page32_img6.png) ------
+The figure illustrates the Partial Autocorrelation Function (PACF) for a given time series, showcasing the correlation between an observation and its lagged values, accounting for the contributions of intervening lags. The vertical axis represents the PACF values, while the horizontal axis indicates the lag order, ranging from 0 to 10. The significant peak at lag 0 indicates immediate autocorrelation, while subsequent lags display diminishing correlations that fall within the confidence interval band, suggesting a potential cut-off for
+
+------ IMAGE 6 (page34_img7.png) ------
+This figure illustrates the Autocorrelation Function (ACF) of the residuals from a statistical model. The y-axis represents the autocorrelation values, while the x-axis indicates the lag order, ranging from 0 to 10. The first lag shows a significant correlation, while subsequent lags fall within the confidence interval indicated by the shaded area, suggesting no significant autocorrelation in the residuals beyond the first lag. This pattern indicates that the model is appropriately fitted, as residuals exhibit randomness.
+
+------ IMAGE 7 (page34_img8.png) ------
+This figure presents the Partial Autocorrelation Function (PACF) of residuals, illustrating the correlation of a time series with its own past values while accounting for the effects of intermediate points. The PACF shows a strong initial spike at lag 0, followed by values that approach zero, indicating a lack of significant autocorrelation beyond the first few lags. The shaded area represents the confidence interval, where values falling within this range suggest statistical insignificance. This analysis is crucial for validating model adequacy
+
+------ IMAGE 8 (page37_img9.png) ------
+This figure illustrates the observed Gross Domestic Product (GDP) of Maharashtra from 2000 to 2023, along with a forecast extending to 2027. The blue line represents the actual GDP data, showing a steady increase over the years, while the red line indicates projected growth. The shaded area around the forecast line reflects the uncertainty in future projections, highlighting potential variability in economic performance.
+
+------ IMAGE 9 (page39_img10.png) ------
+The figure illustrates the training and validation loss over 120 epochs during model training. Both loss curves exhibit a decreasing trend, indicating effective learning. The training loss (blue) consistently remains lower than the validation loss (orange), suggesting minimal overfitting and a well-generalized model performance. Fluctuations in the early epochs may indicate instability during initial training phases.
+
+------ IMAGE 10 (page41_img11.png) ------
+The figure presents the nominal Gross State Domestic Product (GSDP) of Maharashtra from 2000 to a forecasted value for 2028. The red line indicates actual GSDP values, showing a steady upward trend over the years, while the blue line represents projected GSDP, suggesting continued growth. This data visualizes economic progress and aids in understanding future economic trajectories for Maharashtra.
+
+------ IMAGE 11 (page43_img12.png) ------
+This figure illustrates the training and validation loss over a series of epochs during model training. The blue line represents the training loss, while the orange line indicates the validation loss. Both losses decrease over time, suggesting that the model is learning effectively. The slight divergence between the two sets of loss values towards the latter part of training may indicate a risk of overfitting, as the validation loss begins to plateau while the training loss continues to decline.
+
+------ IMAGE 12 (page45_img13.png) ------
+This figure illustrates the Real Gross State Domestic Product (GSDP) of Maharashtra from 2000 to 2024. The red line represents actual GSDP values, showing a consistent upward trend, while the blue line depicts forecasted GSDP, indicating anticipated growth beyond the historical data. The chart highlights the increasing economic activity in Maharashtra, with projections suggesting continued expansion in the coming years.
+
+------ IMAGE 13 (page47_img14.png) ------
+This chart illustrates the relationship between training loss (blue line) and validation loss (orange line) over a series of epochs during model training. Initially, both losses decrease significantly, indicating effective learning. However, the validation loss remains higher than the training loss, suggesting the potential for overfitting beyond a certain point. The reduction in both losses demonstrates the model's ability to generalize, while the divergence towards the final epochs highlights the need for regularization or early stopping to improve validation performance.
+
+------ IMAGE 14 (page49_img15.png) ------
+The chart illustrates the impact of COVID-19 on the Gross State Domestic Product (GSDP) of Maharashtra from 2000 to 2024. The red line represents the original GSDP, which shows a steady increase until 2020, while the blue line indicates forecasted GSDP, reflecting anticipated economic trends post-COVID. A notable divergence in 2020 highlights the pandemic's effect, with original GSDP continuing to rise but at a potentially altered trajectory in the forecast

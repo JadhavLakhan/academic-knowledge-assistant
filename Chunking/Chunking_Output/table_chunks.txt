@@ -1,0 +1,159 @@
+
+------ TABLE 0 (page16_table1.md) ------
+0
+:-----------------------------------------------------------------------------
+Stationarity: A time series is considered stationary if its statistical
+•
+properties (mean, variance, and autocorrelation) do not change over time.
+If the p-value is less than 0.05, reject the null hypothesis, indicating the
+•
+series is stationary.
+
+------ TABLE 1 (page24_table1.md) ------
+0 - 1 - 2 - 3 - 4
+:----------- - :----------- - :------------ - :------------------- - :------------
+Years - Primary - Secondary - Services/ Tertiary - GSDP
+ - Sector - Sector - Sector - 
+31-03-2012 - 206519.856 - 353389.2683 - 584509.3126 - 1280369.437
+31-03-2013 - 221837.939 - 395241.9225 - 677961.764 - 1459628.625
+31-03-2014 - 240549.089 - 457095.8113 - 771322.7351 - 1649646.636
+31-03-2015 - 230771.411 - 482252.8292 - 873912.8397 - 1779137.93
+31-03-2016 - 240467.919 - 514687.0104 - 965332.7531 - 1966224.582
+31-03-2017 - 296006.847 - 525687.6215 - 1086790.238 - 2198185.156
+31-03-2018 - 295281.044 - 575026.0686 - 1194124.748 - 2352781.501
+31-03-2019 - 295383.424 - 591455.4975 - 1329929.359 - 2528854.3
+31-03-2020 - 337945.403 - 544365.2422 - 1468260.107 - 2656806.474
+31-03-2021 - 364248.36 - 571897.4528 - 1396006.085 - 2610651.099
+31-03-2022 - 426278.068 - 719999.3689 - 1646280.769 - 3144138.017
+31-03-2023 - 438482.201 - 770039.7905 - 1997670.964 - 3645883.848
+
+------ TABLE 2 (page25_table1.md) ------
+0 - 1 - 2 - 3
+:---- - :------------ - :------------------------------------------------- - :-------------
+Sr. - Variable - Description - Data Type
+no -  -  - 
+1 - Year - The year period for which the economic data - DateTime
+ -  - is recorded. - 
+ -  - (2011-12, 2022-23) - 
+2 - Primary - Represents the value of economic activities - Quantitative
+ - Sector - related to natural resources. This includes - 
+ -  - agriculture, forestry, fishing, and mining. - 
+ -  - (Values in Crore) - 
+3 - Secondary - Represents the value of industrial and - Quantitative
+ - Sector - manufacturing activities, including - 
+ -  - construction and utilities. (Values in Crore) - 
+4 - Services/ - Represents the value of activities related to - Quantitative
+ - Tertiary - services such as trade, transportation, banking, - 
+ - Sector - healthcare, education, public administration, - 
+ -  - and other services. - 
+ -  - (Values in Crore) - 
+5 - Gross State - The total monetary value of all goods and - Quantitative
+ - Domestic - services produced within the district in a - 
+ - Product - given year. (Values in Crore) - 
+ - (GSDP) -  - 
+6 - Net State - The total monetary value of all goods and - Quantitative
+ - Domestic - services produced within the district after - 
+ - Product - deducting depreciation of capital assets. It - 
+ - (NSDP) - represents the net value added. (Values in - 
+ -  - Crore) - 
+
+------ TABLE 3 (page33_table1.md) ------
+0 - 1
+:------ - :------------
+ - coefficient
+ar.L1 - 0.2497
+ma.L1 - -0.7613
+AIC - 585.151
+
+------ TABLE 4 (page36_table1.md) ------
+0 - 1
+:----- - :------------
+RMSE - 154842.2578
+MAE - 86875.61142
+MAPE - 11.93%
+
+------ TABLE 5 (page36_table2.md) ------
+0 - 1 - 2 - 3
+:----------- - :---- - :-------------- - :----
+Year -  - Forecast GSDP - 
+31-03-2024 -  - 4.15E+06 - 
+31-03-2025 -  - 4.65E+06 - 
+31-03-2026 -  - 5.15E+06 - 
+
+------ TABLE 6 (page38_table1.md) ------
+0 - 1 - 2
+:-------------- - :-------------- - :-------
+Layer (type) - Output Shape - Param
+lstm_1(LSTM) - (None, 3, 50) - 10,400
+lstm_2 (LSTM) - (None, 50) - 20,200
+dense (Dense) - (None, 1) - 51
+
+------ TABLE 7 (page40_table1.md) ------
+0 - 1
+:----- - :---------
+MAPE - 6.52%
+MAE - 78687.68
+RMSE - 90960.33
+
+------ TABLE 8 (page40_table2.md) ------
+0 - 1
+:----------- - :----------------
+Year - Forecasted GSDP
+31-03-2024 - 3957839.5
+31-03-2025 - 4407256
+31-03-2026 - 5053009
+
+------ TABLE 10 (page44_table1.md) ------
+0 - 1
+:----- - :---------
+MAPE - 3.69%
+MAE - 41775.73
+RMSE - 58822.75
+
+------ TABLE 11 (page44_table2.md) ------
+0 - 1
+:----------- - :----------------
+Year - Forecasted GSDP
+31-03-2024 - 2338529
+31-03-2025 - 2554263
+31-03-2026 - 2748874
+
+------ TABLE 13 (page48_table1.md) ------
+0 - 1
+:----- - :---------
+MAPE - 6.35%
+MAE - 56228.28
+RMSE - 73421.26
+
+------ TABLE 14 (page48_table2.md) ------
+0 - 1 - 2
+:----------- - :-------------- - :--------
+Year - Forecast GSDP - GSDP
+31-03-2021 - 3113574.8 - 2610651
+31-03-2022 - 3368883.8 - 3144138
+
+------ TABLE 15 (page51_table1.md) ------
+0
+:---------------------------------------------------------------
+• Time Series Analysis and Forecasting using ARIMA models in R
+YouTube https://youtu.be/zB_0Yxxs0b4
+
+------ TABLE 16 (page5_table1.md) ------
+0 - 1 - 2
+:-------- - :---------------------------------- - :------------
+Sr. No. - Title - Page Number
+1 - Abstract - 6
+2 - Introduction - 7-13
+3 - Objectives - 14
+4 - • Data collection - 15-23
+ - • Statistical software used - 
+ - • Methodology - 
+6 - Dataset - 24
+7 - Data overview - 25
+8 - Statistical Analysis - 26-49
+ - • Exploratory Data Analysis (EDA) - 
+ - • Forecasting GSDP of Maharashtra - 
+ - State - 
+9 - Conclusion - 50
+10 - References - 51
+11 - Appendix - 52

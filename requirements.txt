@@ -1,0 +1,12 @@
+boto3
+qdrant_client
+python-dotenv
+pymupdf
+openai
+pdfplumber
+openpyxl
+pandas
+numpy
+tabulate
+langchain
+langchain-text-splitters
